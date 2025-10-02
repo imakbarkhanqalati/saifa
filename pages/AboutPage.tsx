@@ -51,7 +51,7 @@ const TrustedGlobalCargo: React.FC = () => (
                 </div>
             </div>
             <div>
-                <img src="/media/cargo-plane-ship.png" alt="Cargo plane" className="rounded-lg shadow-xl"/>
+                <img src="./media/cargo-plane-ship.png" alt="Cargo plane" className="rounded-lg shadow-xl"/>
             </div>
         </div>
     </section>
@@ -130,7 +130,7 @@ const StrategicBaseSection: React.FC = () => (
              <h2 className="text-3xl md:text-4xl font-bold my-4 text-blue-900">Our Strategic Base</h2>
              <p className="text-gray-600 mb-12 max-w-3xl mx-auto">Nestled in JinHua, Zhejiang, China's trade powerhouse our central hub connects businesses to global markets. Positioned in a key industrial region, we efficiently handle your business.</p>
              <div className="grid md:grid-cols-2 gap-12 items-center">
-                <img src="/media/map-of-china.jpg" alt="Map of China" className="w-full h-auto"/>
+                <img src="./media/map-of-china.jpg" alt="Map of China" className="w-full h-auto"/>
                 <div className="text-left space-y-6">
                     <div className="flex">
                         <div className="mr-4 mt-1 w-1.5 h-16 bg-red-600"></div>

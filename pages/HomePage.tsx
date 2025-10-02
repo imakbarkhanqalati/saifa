@@ -57,7 +57,7 @@ const IntroSection: React.FC = () => (
         <button className="mt-6 px-6 py-2 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-800 transition-colors">Read More</button>
       </div>
       <div>
-        <img src="/media/cargo-plane.jpg" alt="Cargo containers" className="rounded-lg shadow-xl"/>
+        <img src="./media/cargo-plane.jpg" alt="Cargo containers" className="rounded-lg shadow-xl"/>
       </div>
     </div>
   </section>
@@ -68,7 +68,7 @@ const WhyTrustUsSection: React.FC = () => (
     <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
       <div>
         <img 
-          src="/media/why-trust-us.jpg" 
+          src="./media/why-trust-us.jpg" 
           alt="Business professionals discussing" 
           className="rounded-lg shadow-xl w-full h-[600px] object-cover"
         />
@@ -296,8 +296,8 @@ const ServicesSection: React.FC = () => (
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {[
           { title: 'Procurement', img: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=400&h=300&auto=format&fit=crop' },
-          { title: 'Import', img: '/media/import.jpg' },
-          { title: 'Export', img: '/media/export.svg' },
+          { title: 'Import', img: './media/import.jpg' },
+          { title: 'Export', img: './media/export.svg' },
           { title: 'Sourcing', img: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=400&h=300&auto=format&fit=crop' },
         ].map(service => (
           <div key={service.title} className="bg-white p-2 rounded-lg border border-gray-200 shadow-md hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">

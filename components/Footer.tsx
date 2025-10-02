@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col items-center lg:items-start mb-6">
               {/* White Circle with Logo */}
               <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-4 shadow-lg">
-                <img src="/logo/saifa-logo.png" alt="Saifa Logo" className="w-20 h-20 object-contain" />
+                <img src="./logo/saifa-logo.png" alt="Saifa Logo" className="w-20 h-20 object-contain" />
               </div>
               <h4 className="text-xl font-bold text-white text-center lg:text-left">Saifa International</h4>
             </div>

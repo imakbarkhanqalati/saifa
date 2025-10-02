@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
       <nav className="bg-white bg-opacity-95 backdrop-blur-sm">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2 cursor-pointer">
-            <img src="/logo/saifa-logo.png" alt="Saifa Logo" className="h-10 w-auto" />
+            <img src="./logo/saifa-logo.png" alt="Saifa Logo" className="h-10 w-auto" />
             <h1 className="text-xl md:text-2xl font-bold text-gray-900">Saifa International</h1>
           </Link>
           
