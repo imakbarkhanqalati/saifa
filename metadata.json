@@ -1,0 +1,21 @@
+{
+  "name": "Saifa International Trading Website",
+  "description": "A professional website for Saifa International Trading, featuring company information, services, and AI-powered tools for logistics planning and email drafting to enhance customer engagement.",
+  "contact": {
+    "pakistan": {
+      "address": "Office 1205, 12th Floor, Al Najeebi Tower, Saddar, Karachi, Pakistan"
+    },
+    "china": {
+      "phone": "+86 183 0610 1718",
+      "contact_person": "Sikander Ali Qalati",
+      "position": "China Operations Manager",
+      "address": "No.80-86 Xibayi Road,Liwan District,Guanazhou City.Building 5 and 6 (Self-numbered Sixth Floor), C013"
+    },
+    "wechat": {
+      "company": "Guangzhou Saifa ITCL",
+      "description": "Scan QR code to add us as friend",
+      "qr_code": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=Guangzhou%20Saifa%20ITCL%20WeChat"
+    }
+  },
+  "requestFramePermissions": []
+}
