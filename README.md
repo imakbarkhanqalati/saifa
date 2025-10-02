@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Saifa International Trading Website
 
-# Run and deploy your AI Studio app
+A professional website for Saifa International Trading, a logistics and trading company specializing in import/export services between Pakistan and China.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1QroEXig7Kx803ouEFysdnWUdcxUUMt6R
+- Modern, responsive design
+- Company information and services
+- Contact information for Pakistan and China offices
+- WhatsApp integration for customer support
+- Product categories showcase
+- Request quote functionality
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## Deployment
+
+This project is configured for deployment on GitHub Pages. The deployment happens automatically when changes are pushed to the main branch.
+
+## Contact
+
+- **Pakistan Office:** Office 1205, 12th Floor, Al Najeebi Tower, Saddar, Karachi, Pakistan
+- **China Office:** No.80-86 Xibayi Road,Liwan District,Guangzhou City, Building 5 and 6 (Self-numbered Sixth Floor), C013
+- **Phone (China):** +86 183 0610 1718
+- **Contact Person:** Sikander Ali Qalati (China Operations Manager)
